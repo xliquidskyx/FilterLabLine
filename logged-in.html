@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>FilterLabLine</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Group 4.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function responsiveMenu() {
+                var x = document.getElementsByClassName("top-navigation");
+                if (x.className === "top-navigation") {
+                    alert("działa");
+                    x.className += "-mobile";
+                } else {
+                    x.className = "top-navigation";
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <container class="sub-menu">
+            <span class="black-logo">
+                <a href="logged-in.html">
+                    <img src="images/Logo-icon.png" class="black-logo">
+                </a>
+            </span>
+            <nav class="top-navigation">
+                <ul>
+                    <li class="nav-links"><a href="moje-pakiety.html">Moje pakiety</a></li>
+                    <li class="nav-links"><a href="ustawienia.html">Ustawienia</a></li>
+                </ul>
+            </nav>
+            <a href="sign-up.html" class="log-in-link">
+                <a href="main.html" class="log-in">
+                    Wyloguj się
+                </span>
+            </a>
+        </container>
+        <main id="homepage">
+            <container class="file-container">
+                <h2 class="file-headline">Wybierz zdjęcie do edycji</h2>
+                <img src="images/icons/paper.png" class="file-icon" alt="Ikona przedstawiająca plik dokumentów" aria-label="">
+                <form>
+                    <input type="file" class="file-choose"><br/>
+                    <input type="submit" class="file-button" value="Przejdź dalej" onclick="alert('Potwierdź swój adres e-mail, aby móc przejść dalej.')">
+                </form>
+            </container>
+        </main>
+    </body>
+</html>

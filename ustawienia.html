@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>FilterLabLine</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Group 4.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <container class="sub-menu">
+            <span class="black-logo">
+                <a href="logged-in.html">
+                    <img src="images/Logo-icon.png" class="black-logo">
+                </a>
+            </span>
+            <nav class="top-navigation">
+                <ul>
+                    <li class="nav-links"><a href="moje-pakiety.html">Moje pakiety</a></li>
+                    <li class="nav-links"><a href="ustawienia.html"><b>Ustawienia</b></a></li>
+                </ul>
+            </nav>
+            <a href="sign-up.html" class="log-in-link">
+                <a href="main.html" class="log-in">
+                    Wyloguj się
+                </span>
+            </a>
+        </container>
+        <main id="homepage">
+            <div class="sign-up-container">
+                <h1 class="sign-up-title">Ustawienia</h1><br/>
+                <form class="sign-up-form" action="#">
+                    <h3 class="small-heading">Zmień hasło:</h3>
+                    <label for="first-name">Aktualne hasło:</label></br>
+                    <input type="text" id="first-name" class="input-form" required></br>
+                    <label for="last-name">Nowe hasło:</label></br>
+                    <input type="text" id="first-name" class="input-form" required></br>
+                    <input type="submit" value="Zmień hasło" class="password-btn" onclick="alert('Hasło zostało zmienione.')"><br/>
+                    <h3 class="small-heading">Usuń konto</h3>
+                    <p>Kliknij poniższy przycisk, aby usunąć swoje konto:</p>
+                    <input type="submit" value="Usuń konto" class="delete-btn" onclick="window.location.href='main.html';"><br/><br/>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

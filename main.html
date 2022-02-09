@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>FilterLabLine</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Group 4.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <script>
+            function responsiveMenu() {
+                var x = document.getElementsByClassName("top-navigation");
+                if (x.className == "top-navigation") {
+                    alert("działa");
+                    x.className = "top-navigation-mobile";
+                } else {
+                    x.className = "top-navigation";
+
+                }
+            }
+        </script> -->
+    </head>
+    <body>
+        <container id="main-menu">
+            <span id="logo">
+                <a href="main.html">
+                    <img src="images/Biały-napis.png" class="logo" alt="FilterLabLine logo" aria-label="Przejdź na stronę główną">
+                    <img src="images/photos/tablet-logo.png" class="logo-tablet" alt="FilterLabLine logo" aria-label="Przejdź na stronę główną">
+                </a>
+            </span>
+            <nav class="top-navigation">
+                <ul>
+                    <li class="nav-links"><a href="o-nas.html">O nas</a></li>
+                    <li class="nav-links"><a href="produkty.html">Pakiety</a></li>
+                    <li class="nav-links"><a href="kontakt.html">Kontakt</a></li>
+                    <li class="nav-links"><a href="społeczność.html">Społeczność</a></li>
+                </ul>
+            </nav>
+            <a href="sign-up.html" class="sign-up-link">
+                <span class="sign-up">
+                    Załóż konto
+                </span>
+            </a>
+            <a href="javascript:void(0);" class="hamburger-icon" onclick="responsiveMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </container>
+        <main id="homepage">
+           <section class="first-section">
+                <div class="background">
+                    <span class="text-area">
+                        <h1 class="headline-mobile">FilterLabLine</h1>
+                        <h1 class="headline">TAKE YOUR PHOTOS TO THE NEXT LEVEL.</h1>
+                        <p class="description">Z FilterLabLine to proste! Nie musisz przejmować się, jak wydobyć z Twojego zdjęcia to, co najlepsze 
+                                            – my zrobimy to za Ciebie. Wybierz kadr i naciśnij spust migawki, a resztę zostaw nam. 
+                                            Zaufaj technologii przyszłości – zaufaj FilterLabLine.
+                        </p>
+                        <a href="#second-section" class="learn-more-btn" aria-label="Przescrolluj do sekcji niżej">Zobacz więcej</a>
+                    </span>
+                    <img src="images/Grafika.png" class="img-prototype" alt="Product image">
+                </div>
+            </section>
+
+            <section id="second-section" class="second-section">
+                <h2 class="title">Stworzone, by wspierać nie tylko <br/> profesjonalistów</h2>
+                <p class="paragraph">FilterLabLine to wysokiej jakości filtry do zdjęć wykorzystujące również osiągnięcia sztucznej inteligencji. Firma powstała, by dostarczać wysokiej jakości usługi i jednocześnie uczynić je dostępnymi dla klientów, 
+                    którzy obcują ze zdjęciami na co dzień. By zadowolić zarówno klienta indywidualnego, jak i biznesowego - powstało kilka linii naszych produktów:</p>
+                <div class="big-container">
+                    <div class="small-container">
+                        <h3>FilterBasicLine</h3>
+                        <img src="images/icons/hammer.png" class="product-icons" alt="Ikona FilterBasicLine">
+                        <p>Z myślą o klientach indywidualnych oraz ich potrzebach stworzyliśmy linię <mark>FilterBasicLine</mark>. Zaprojektowana na każdą kieszeń, wydobędzie urok nawet z najprostszych kadrów.</p>
+                    </div>
+                    <div class="small-container">
+                        <h3>FilterProLine</h3>
+                        <img src="images/icons/clicking.png" class="product-icons" alt="Ikona FilterProLine">
+                        <p>Zadowoli nawet najbardziej wymagających klientów biznesowych. Bogaty zasób linii <mark>FilterProLine</mark> sprawi, że nigdy więcej nie wrócisz do samodzielnego edytowania zdjęć. Czas to pieniądz – po co go marnować, skoro nasze filtry mogą z powodzeniem Cię wyręczyć?</p>
+                    </div>
+                    <div class="small-container">
+                        <h3>FilterAILine</h3>
+                        <img src="images/icons/artificial-intelligence.png" class="product-icons" alt="Ikona FilterAILine">
+                        <p><mark>FilterAILine</mark> to jedyne w swoim rodzaju filtry wykorzystujące sztuczną inteligencję. Usuwaj niechciane obiekty ze zdjęć zaledwie jednym kliknięciem i pozwól nam dobrać filtry idealnie współgrające z nastrojem twojego zdjęcia.</p>
+                    </div>
+                </div>
+                <a href="produkty.html" aria-label="Przejdź do strony z produktami"><div role="button" class="button">Zobacz więcej</div></a>
+            </section>
+        </main>
+        <footer id="main-footer">
+            <section class="newsletter-container">
+                <div class="newsletter-background">
+                    <form action="#">
+                        <h2 class="newsletter-msg">Dołącz do naszego newslettera</h2>
+                        <input type="email" class="newsletter-form" placeholder="Podaj swój e-mail">
+                        <button class="newsletter-btn" onclick="alert('Subskrybcja powiodła się')">Subskrybuj</button>
+                    </form>
+                </div>
+            </section>
+            <section class="footer-body">
+                <h3>FilterLabLine</h3>
+                <span id="footer-icons">
+                    <a href="#"><img src="images/icons/facebook.png" class="footer-icons" alt="Przejdź na naszego Facebooka"></a>
+                    <a href="#"><img src="images/icons/linkedin.png" class="footer-icons" alt="Przejdź na naszego LinkedIn"></a>
+                    <a href="#"><img src="images/icons/twitter.png" class="footer-icons" alt="Przejdź na naszego Twittera"></a>
+                    <a href="#"><img src="images/icons/instagram.png" class="footer-icons" alt="Przejdź na naszego Instagrama"></a>
+                </span>
+                <p class="footer-credit">Icons made by <a href="https://www.flaticon.com">winnievinzence & Freepik</a></p>
+            </section> 
+        </footer>
+    </body>
+</html>

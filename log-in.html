@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FilterLabLine</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Group 4.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body id="sub-pages">
+        <container class="sub-menu">
+            <span class="black-logo">
+                <a href="main.html">
+                    <img src="images/Logo-icon.png" class="black-logo">
+                </a>
+            </span>
+            <nav class="top-navigation">
+                <ul>
+                    <li class="nav-links"><a href="o-nas.html">O nas</a></li>
+                    <li class="nav-links"><a href="produkty.html">Pakiety</a></li>
+                    <li class="nav-links"><a href="kontakt.html">Kontakt</a></li>
+                    <li class="nav-links"><a href="społeczność.html">Społeczność</a></li>
+                </ul>
+            </nav>
+            <a href="sign-up.html" class="log-in-link">
+                <span class="log-in">
+                    Załóż konto
+                </span>
+            </a>
+        </container>
+        <main>
+            <div class="log-in-container">
+                <h1 class="sign-up-title">Zaloguj się</h1>
+                <form class="sign-up-form" action="#">
+                    <label for="e-mail">E-mail:</label></br>
+                    <input type="email" id="e-mail" class="input-form"></br>
+                    <label for="password">Hasło:</label></br>
+                    <input type="password" id="password" class="input-form"></br>
+                    <input type="checkbox" id="validate">
+                    <label for="validate" class="checkbox">Zapamiętaj moje hasło</label><br/><br/>
+                    <input type="submit" value="Zaloguj się" class="sign-up-btn" onclick="window.location.href='logged-in.html';">
+                </form>
+                <p class="log-in-msg">Nie posiadasz konta? <a href="sign-up.html" aria-label="Załóż konto">Zarejestruj się</a></p>
+            </div>
+        </main>
+        <footer id="sub-footer">
+            <section class="footer-body">
+                <h3>FilterLabLine</h3>
+                <span id="footer-icons">
+                    <a href="#"><img src="images/icons/facebook.png" class="footer-icons" alt="Przejdź na naszego Facebooka"></a>
+                    <a href="#"><img src="images/icons/linkedin.png" class="footer-icons" alt="Przejdź na naszego LinkedIn"></a>
+                    <a href="#"><img src="images/icons/twitter.png" class="footer-icons" alt="Przejdź na naszego Twittera"></a>
+                    <a href="#"><img src="images/icons/instagram.png" class="footer-icons" alt="Przejdź na naszego Instagrama"></a>
+                </span>
+                <p class="footer-credit">Icons made by <a href="https://www.flaticon.com">winnievinzence & Freepik</a></p>
+            </section> 
+        </footer>
+    </body>
+</html>
