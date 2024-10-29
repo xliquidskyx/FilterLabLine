@@ -680,8 +680,10 @@ a {
 .sub-page-image {
     background-image: url("images/Rectangle\ 1.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center; 
     height: 50vh;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
